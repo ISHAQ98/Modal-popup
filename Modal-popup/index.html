@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Modal Popup</title>
+  </head>
+  <body>
+    <!-- ===== Modal popup ====== -->
+
+    <button id="open">Click me</button>
+    <div class="modal-container" id="modal_container">
+      <div class="modal">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+        />
+        <h1>Modals are</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+          tempore magnam nihil necessitatibus nobis, deleniti obcaecati
+          cupiditate fuga doloribus, voluptates temporibus aliquid maiores quo
+          veritatis libero molestias ipsa illo alias?
+        </p>
+        <button id="close">Close me</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
