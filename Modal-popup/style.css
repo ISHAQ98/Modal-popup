@@ -23,7 +23,7 @@ button {
   transition: 0.3s ease-in-out;
 }
 .modal-container {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,7 @@ button {
 }
 .modal-container.show {
   pointer-events: auto;
-  opacity: 2;
+  opacity: 2.2;
 }
 .modal {
   background-color: #fff;
@@ -51,4 +51,5 @@ button {
 }
 .modal img {
   border-radius: 50%;
+  border: 1px solid black ;
 }
