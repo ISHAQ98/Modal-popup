@@ -9,3 +9,14 @@ btnOpen.addEventListener("click", () => {
 btnClose.addEventListener("click", () => {
   modal_container.classList.remove("show");
 });
+
+// Version 2 of modal window 
+const showModal = document.querySelectorAll(".show-modal");
+const modal = document.querySelector(".modal");
+const modoverlayal = document.querySelector(".overlay");
+const btnCloseModal = document.querySelector(".close-modal");
+
+console.log(showModal);
+for (let i = 0; i < showModal.length; i++) {
+  console.log(showModal[i].textContent);
+}
