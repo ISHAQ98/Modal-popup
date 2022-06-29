@@ -53,3 +53,27 @@ button {
   border-radius: 50%;
   border: 1px solid black ;
 }
+
+/*
+
+button {
+  padding: 5px 20px;
+  background-color: salmon;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modal {
+  border: 2px solid rgb(7, 86, 155);
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hidden {
+  display: none;
+}
+*/
