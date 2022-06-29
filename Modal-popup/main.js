@@ -37,9 +37,9 @@ btnCloseModal.addEventListener("click", closeModal);
 //handling an esc keypress / keydown keyup event to close the modal window 
 
 const keyEsc = function (e){
-if(e.key === 'Escape'){
-if(!modal.classList.contains('hidden'){
-closeModal();
-}}
+if(e.key === 'Escape' && !modal.classList.contains('hidden')){
+
 
 document.addEventListener('keydown', keyEsc)
+
+
